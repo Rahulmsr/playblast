@@ -54,8 +54,6 @@ temp/
 # Logs
 *.log
 
-# Screenshots and generated media (project-specific)
-screenshots/
 
 # Other
 *.bak
