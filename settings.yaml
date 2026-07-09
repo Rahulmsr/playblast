@@ -1,0 +1,50 @@
+playblast:
+  camera: ''
+  directory: '{project}/playblasts'
+  encoding: h264 mp4
+  end_frame: 100
+  filename: '{scene}'
+  force_overwrite: true
+  frame_range: Playback
+  resolution_preset: HD 1080
+  height: 1080
+  width: 1920
+  hide_default_cameras: true
+  log_to_script_editor: false
+  overscan: false
+  shot_mask: true
+  show_in_viewer: true
+  show_ornaments: false
+  start_frame: 1
+  step: 1
+settings:
+  ffmpeg_path: ''
+  player_path: ''
+  temp_dir: '{scene_dir}/.playblast_tmp/{scene}'
+shot_mask:
+  bar_alpha: 0.75
+  bar_color: '#000000'
+  bar_height: 48
+  bottom_bar: true
+  camera_scope: <All Cameras>
+  counter_padding: 4
+  font_path: ''
+  font_size: 24
+  labels:
+    bottom_center: '{camera}'
+    bottom_left: '{user}'
+    bottom_right: '{focal_length} mm {counter}'
+    top_center: '{scene}'
+    top_left: ''
+    top_right: '{date} {time}'
+  logo_alpha: 1.0
+  logo_path: ''
+  logo_position: top_left
+  logo_vertical_align: middle
+  logo_width: 120
+  margin: 24
+  text_alpha: 1.0
+  text_color: '#FFFFFF'
+  text_scale: 1.0
+  top_bar: true
+  use_logo: true
